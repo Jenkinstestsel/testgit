@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28416" started-at="2015-12-12T08:55:58Z" finished-at="2015-12-12T08:56:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28416" started-at="2015-12-12T08:55:58Z" finished-at="2015-12-12T08:56:27Z">
+      <class name="sceanrios_TCs.Search_Scenario">
+        <test-method status="PASS" signature="invalidSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Search_Scenario@1bd9247]" name="invalidSearch" duration-ms="8115" started-at="2015-12-12T14:25:59Z" data-provider="DP_invalid_search" finished-at="2015-12-12T14:26:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bbsj54sfdds]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sorry..'bbsj54sfdds' does not match any product on Rediff Books.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSearch -->
+        <test-method status="PASS" signature="validSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Search_Scenario@1bd9247]" name="validSearch" duration-ms="7035" started-at="2015-12-12T14:26:07Z" data-provider="DP_valid_search" finished-at="2015-12-12T14:26:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_09]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ways]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[495.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSearch -->
+        <test-method status="FAIL" signature="validSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Search_Scenario@1bd9247]" name="validSearch" duration-ms="6168" started-at="2015-12-12T14:26:14Z" data-provider="DP_valid_search" finished-at="2015-12-12T14:26:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chandler]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[428.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+The actual found is 414 The expected is 428]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+The actual found is 414 The expected is 428
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)
+	at sceanrios_TCs.Search_Scenario.validSearch(Search_Scenario.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.run(TestNG.java:1036)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSearch -->
+        <test-method status="FAIL" signature="validSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Search_Scenario@1bd9247]" name="validSearch" duration-ms="6429" started-at="2015-12-12T14:26:20Z" data-provider="DP_valid_search" finished-at="2015-12-12T14:26:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jaico]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+The actual found is 3 The expected is 4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+The actual found is 3 The expected is 4
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)
+	at sceanrios_TCs.Search_Scenario.validSearch(Search_Scenario.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.run(TestNG.java:1036)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSearch -->
+      </class> <!-- sceanrios_TCs.Search_Scenario -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

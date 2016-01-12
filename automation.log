@@ -1,0 +1,22 @@
+2015-12-13 13:41:08 INFO  Login_Scenario:20 - Starting invalid_login scenarioGB_01 1.0
+2015-12-13 13:41:23 INFO  Login_Scenario:23 - Browser InitializedGB_01 1.0
+2015-12-13 13:41:29 INFO  Login_Scenario:31 - User Logged inGB_01 1.0
+2015-12-13 13:41:31 INFO  Login_Scenario:37 - Completed invalid_login scenarioGB_01 1.0
+2015-12-13 13:41:31 INFO  Login_Scenario:20 - Starting invalid_login scenarioGB_02 1.0
+2015-12-13 13:47:49 INFO  Login_Scenario:20 - Starting invalid_login scenarioGB_01 1.0
+2015-12-13 13:48:03 INFO  Login_Scenario:23 - Browser InitializedGB_01 1.0
+2015-12-13 13:48:09 INFO  Login_Scenario:37 - The validation has passed
+2015-12-13 13:48:10 INFO  Login_Scenario:45 - Completed invalid_login scenarioGB_01 1.0
+2015-12-13 13:48:10 INFO  Login_Scenario:20 - Starting invalid_login scenarioGB_02 1.0
+2015-12-13 13:48:21 INFO  Login_Scenario:23 - Browser InitializedGB_02 1.0
+2015-12-13 13:48:26 INFO  Login_Scenario:37 - The validation has passed
+2015-12-13 13:48:28 INFO  Login_Scenario:45 - Completed invalid_login scenarioGB_02 1.0
+2015-12-13 14:00:31 INFO  Login_Scenario:63 - The validation has passed
+2015-12-13 14:00:34 INFO  Login_Scenario:20 - Starting invalid_login scenarioGB_01 1.0
+2015-12-13 14:00:46 INFO  Login_Scenario:23 - Browser InitializedGB_01 1.0
+2015-12-13 14:00:50 INFO  Login_Scenario:37 - The validation has passed
+2015-12-13 14:00:52 INFO  Login_Scenario:45 - Completed invalid_login scenarioGB_01 1.0
+2015-12-13 14:00:52 INFO  Login_Scenario:20 - Starting invalid_login scenarioGB_02 1.0
+2015-12-13 14:01:04 INFO  Login_Scenario:23 - Browser InitializedGB_02 1.0
+2015-12-13 14:01:09 INFO  Login_Scenario:37 - The validation has passed
+2015-12-13 14:01:11 INFO  Login_Scenario:45 - Completed invalid_login scenarioGB_02 1.0

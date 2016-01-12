@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54915" started-at="2015-12-12T22:12:31Z" finished-at="2015-12-12T22:13:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54915" started-at="2015-12-12T22:12:31Z" finished-at="2015-12-12T22:13:26Z">
+      <class name="sceanrios_TCs.Login_Scenario">
+        <test-method status="PASS" signature="invalid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Login_Scenario@1f40a61]" name="invalid_login" duration-ms="18198" started-at="2015-12-13T03:42:32Z" data-provider="DP_invalid_login" finished-at="2015-12-13T03:42:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Raje]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ghagh]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sorry we were unable to complete this step because :]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_login -->
+        <test-method status="PASS" signature="invalid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Login_Scenario@1f40a61]" name="invalid_login" duration-ms="17412" started-at="2015-12-13T03:42:50Z" data-provider="DP_invalid_login" finished-at="2015-12-13T03:43:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Raje]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[learn123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sorry we were unable to complete this step because :]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_login -->
+        <test-method status="PASS" signature="valid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Login_Scenario@1f40a61]" name="valid_login" duration-ms="18073" started-at="2015-12-13T03:43:08Z" data-provider="DP_valid_login" finished-at="2015-12-13T03:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qtpworld2008@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[learn123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qtpworld2008 g]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_login -->
+      </class> <!-- sceanrios_TCs.Login_Scenario -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browserName" value="firefox"/>
+  <test name="Test(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="sceanrios_TCs.Login_Scenario">
+        <methods>
+          <include name="valid_login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- sceanrios_TCs.Login_Scenario -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
